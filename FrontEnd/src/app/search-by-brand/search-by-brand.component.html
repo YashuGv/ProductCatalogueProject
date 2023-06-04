@@ -1,0 +1,20 @@
+<body><br><br>
+    <form [formGroup]="searchbyb">
+    <mat-form-field style="padding-left: 2%;background-color: aliceblue;">
+        <mat-label>Brand Name</mat-label>
+        <input matInput placeholder="Enter Brand name" formControlName="brand"/> 
+    </mat-form-field><br>
+    <button (click)="searchbybrand()" style="height: 2%;width: 5%;">Search</button>
+</form><br>
+<ul *ngFor="let i of products">
+    <div>
+    <li><b>Product&nbsp;</b> {{i.productName}}</li>
+    <li><b>ProductId:&nbsp;</b>{{i.productId}}</li>
+    <li><b>categoryId:&nbsp;</b>{{i.categoryId}}</li>
+    <li><b>About:&nbsp;</b>{{i.productDescription}}</li>
+    <li><b>Price:&nbsp;</b>{{i.price}}</li>
+    <li><b>Category:&nbsp;</b>{{i.name}}</li>
+    <li><b>Brand:&nbsp;</b>{{i.brand}}</li>
+    </div> &nbsp;
+</ul>
+</body>

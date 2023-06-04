@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8KLba4OqHM0gff50TybeeN2CBDPoZieIfA&usqp=CAU");
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+mat-form-field{
+    display: flex;
+  }
+  
+  mat-form-field{
+    width: 500px;
+    /* height: 100px; */
+  }
+  
+  button{
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    color: rgb(232, 240, 230);
+    background-color: blue;
+    border: 15px; 
+  }
+
+form{
+    align-items: center;
+    padding-left: 35%;
+    padding-top: 4%;
+    
+}

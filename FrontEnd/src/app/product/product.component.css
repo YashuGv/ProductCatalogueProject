@@ -1,0 +1,45 @@
+.example-header-image {
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/28/02/35/doctor-1699656__340.jpg');
+    background-size: cover;
+  }
+
+.navbar{
+    background-color: rgb(63, 149, 224);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+nav{
+    color: #daf609;
+    font-size:150%;
+    text-align: center;  
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8KLba4OqHM0gff50TybeeN2CBDPoZieIfA&usqp=CAU");
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .child{
+    align-items: center;
+    float: left;
+    padding: 1rem;
+    font: 2em sans-serif;
+} */
+.parent{
+    padding-left: 30%;
+    align-items: center;
+}
+
+button{
+    /*color: #fafafa;*/
+    text-decoration: none;
+    font-size: 16px;
+    /* background-color: rgb(51, 0, 255); */
+    border: 2px solid;
+    display:inline-block;
+    border-radius: 12px;
+    padding: 15px 25px;
+}

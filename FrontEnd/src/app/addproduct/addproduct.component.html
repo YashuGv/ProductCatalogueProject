@@ -1,0 +1,30 @@
+<body>
+    <br>
+    <h2>Add Product</h2>
+    
+    <div>
+        <form [formGroup]="addproduct">
+            <!-- <mat-form-field appearance="outline">
+                <mat-label>ProductName</mat-label> -->
+                <label><b>Product Name :-</b>&nbsp;</label>
+                <input matInput formControlName="productName" placeholder="Ex. Asus,lenevo" style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;" required /><br><br>
+                <!-- <mat-form-field>
+                <mat-label>Brand</mat-label> -->
+                <label><b>Brand :&nbsp;</b></label>
+                <input matInput formControlName="brand" placeholder="Ex: Apple,1+"  style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;" required/><br><br>
+            <!-- </mat-form-field> -->
+                <label><b>Catagory Id :&nbsp;</b></label>
+                <input matInput formControlName="categoryId" placeholder="Ex: 1,2,3" style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;"required/><br><br>
+                <label><b>Price :&nbsp;</b></label>
+                <input matInput formControlName="price" placeholder="Ex: 100000,2000" style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;"required/><br><br>
+                <label><b>About :&nbsp;</b></label>
+                <input matInput formControlName="productDescription" placeholder="Ex: productDescription"  style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;" required/><br><br>
+
+            <!-- </mat-form-field>
+            <mat-form-field> -->
+                <button mat-button (click)="add()">submit</button>
+            <!-- </mat-form-field> -->
+        
+        </form>
+    </div>
+</body>

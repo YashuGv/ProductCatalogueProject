@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8KLba4OqHM0gff50TybeeN2CBDPoZieIfA&usqp=CAU");
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.example-card {
+    background-color: azure;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 6%;
+    padding: 2rem;
+    font-size: medium;
+  }
+  
+  .card-container{
+    display : flex;
+    flex-direction: row;
+    gap: 7%;
+    flex-wrap: wrap;
+    justify-content: center;
+}

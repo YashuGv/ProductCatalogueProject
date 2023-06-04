@@ -1,0 +1,19 @@
+<body>
+    <br>
+    <h2>To Delete Product</h2>
+    
+    <div>
+        <form [formGroup]="deleteproduct">
+            <mat-form-field appearance="outline">
+                <mat-label>ProductId</mat-label>
+                <label><b>ProductID :-</b>&nbsp;</label>
+                <input matInput formControlName="id" placeholder="Ex.product id"  style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;" required/>
+            </mat-form-field>
+            <mat-form-field>
+                <button mat-button (click)="deletepro()">submit</button>
+            </mat-form-field>
+        
+        </form>
+    </div>
+</body>
+

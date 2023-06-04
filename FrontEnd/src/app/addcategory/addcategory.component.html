@@ -1,0 +1,18 @@
+<body>
+    <br>
+    <h2>Add Catagory</h2>
+    
+    <div>
+        <form [formGroup]="addcatagory">
+            <mat-form-field appearance="outline">
+                <mat-label>CategoryName</mat-label>
+                <label>Category Name :-</label>
+                <input matInput formControlName="name" placeholder="Ex. books,pen" required style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;"/>
+            </mat-form-field>
+            <mat-form-field>
+                <button mat-button (click)="add()">submit</button>
+            </mat-form-field>
+        
+        </form>
+    </div>
+</body>

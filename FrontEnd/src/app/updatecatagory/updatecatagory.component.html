@@ -1,0 +1,24 @@
+<body>
+    <br>
+    <h2>Update Catagory</h2>
+    
+    <div>
+        <form [formGroup]="updatecatagory">
+            <mat-form-field appearance="outline">
+                <mat-label>CategoryName</mat-label>
+                <label>Id :-</label>
+                <input matInput formControlName="id" placeholder="Ex. category id" required style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;"/>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>CategoryName</mat-label>
+                <label>Category Name :-</label>
+                <input matInput formControlName="name" placeholder="Ex. books,pen" required style="border-color: brown;border-radius: 10px;height: 30px;width: 200px;"/>
+            </mat-form-field>
+            <mat-form-field>
+                <button mat-button (click)="update()">submit</button>
+            </mat-form-field>
+        
+        </form>
+    </div>
+</body>
+
