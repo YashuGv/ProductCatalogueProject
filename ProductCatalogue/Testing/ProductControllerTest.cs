@@ -60,5 +60,32 @@ namespace Testing
             result.Should().BeAssignableTo<BadRequestObjectResult>();
             mlogic.Verify(x => x.Addproduct(request), Times.AtLeastOnce());
         }
+        public void UpdateProduct_Test()
+        {
+            var hr = fixture.Create<Models.product>();
+            var id = fixture.Create<Guid>();
+            mlogic.Setup(x => x.UpdateProduct(id, hr)).Returns(hr);
+
+            var result = c1.Update(id, hr);
+
+            result.Should().NotBeNull();
+            result.Should().BeAssignableTo<OkObjectResult>();
+            result.As<OkObjectResult>().Value.Should().NotBeNull().And.BeOfType(hr.GetType());
+            mlogic.Verify(x => x.UpdateProduct(id, hr), Times.AtLeastOnce());
+        }
+
+        [Fact]
+        public void Updateproduct_Exception()
+        {
+            var request = fixture.Create<product>();
+            var id = fixture.Create<Guid>();
+            mlogic.Setup(x => x.UpdateProduct(id, request)).Throws(new Exception("Something wrong with the request"));
+
+            var result = c1.Update(id, request);
+
+            result.Should().NotBeNull();
+            result.Should().BeAssignableTo<BadRequestObjectResult>();
+            mlogic.Verify(x => x.UpdateProduct(id, request), Times.AtLeastOnce());
+        }
     }
 }
