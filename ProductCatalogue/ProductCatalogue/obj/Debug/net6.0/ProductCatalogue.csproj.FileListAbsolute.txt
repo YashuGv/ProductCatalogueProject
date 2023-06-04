@@ -1,0 +1,14 @@
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\bin\Debug\net6.0\ProductCatalogue.deps.json
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\bin\Debug\net6.0\ProductCatalogue.runtimeconfig.json
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\bin\Debug\net6.0\ProductCatalogue.dll
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\bin\Debug\net6.0\ProductCatalogue.pdb
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.csproj.AssemblyReference.cache
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.AssemblyInfoInputs.cache
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.AssemblyInfo.cs
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.csproj.CoreCompileInputs.cache
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.dll
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\refint\ProductCatalogue.dll
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.pdb
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ProductCatalogue.genruntimeconfig.cache
+C:\Product_Catalogue\ProductCatalogue\ProductCatalogue\obj\Debug\net6.0\ref\ProductCatalogue.dll
